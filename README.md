@@ -132,20 +132,20 @@ System shows popup warning:
 ---
 
 ## ⚠ Error Handling
-Empty field validation
-Invalid numeric input
-Foreign key constraint handling
-SQL exception popups
+- Empty field validation
+- Invalid numeric input
+- Foreign key constraint handling
+- SQL exception popups
 
 ---
 
 ## 📈 Future Improvements
-GUI table view (JTable)
-Book search system
-Admin roles
-Barcode integration
-Report generation
-Cloud database support
+- GUI table view (JTable)
+- Book search system
+- Admin roles
+- Barcode integration
+- Report generation
+- Cloud database support
 
 ---
 
