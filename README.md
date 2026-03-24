@@ -155,15 +155,15 @@ A desktop-based  Library Management System built using Java Swing and MySQL, des
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](screenshots/login.png)
+![Login](Project_Screenshoots/loginPanel.png)
 
 ### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Project_Screenshoots/dashboard.png)
 
 ### 👨‍🎓 Student Management
-![Student](screenshots/add_student.png)
+![Student](Project_Screenshoots/add_delete_student.png)
 
 ### 📖 Issue Book
-![Issue](screenshots/issue_book.png)
+![Issue](Project_Screenshoots/issue_return_book.png)
 
 
