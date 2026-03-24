@@ -95,26 +95,27 @@ Ensures consistency.
 
 ---
 ### ▶ How the System Works
-📖 Adding a Book
-Admin enters book details + number of copies
-Book is inserted into books table
-Multiple entries are automatically created in book_copies
-All copies are set to Available
+### 📖 Adding a Book
+
+Admin enters book details + number of copies.
+Book is inserted into books table.
+Multiple entries are automatically created in book_copies.
+All copies are set to Available.
 
 ---
 
-🔄 Issuing a Book
+### 🔄 Issuing a Book
 System checks:
-Student exists
-Copy is available
+Student exists.
+Copy is available.
 Updates:
-Copy → Issued
-New transaction created
-Due date automatically assigned
+Copy → Issued , 
+New transaction created .
+Due date automatically assigned .
 
 ---
 
-🔁 Returning a Book
+## 🔁 Returning a Book
 Finds active transaction
 Updates:
 Return date
@@ -123,14 +124,14 @@ Copy → Available
 
 ---
 
-🧾 Deleting a Student
+## 🧾 Deleting a Student
 If student has issued books → ❌ Not allowed
 System shows popup warning:
 "Return all books before deleting student"
 
 ---
 
-⚠ Error Handling
+## ⚠ Error Handling
 Empty field validation
 Invalid numeric input
 Foreign key constraint handling
@@ -138,7 +139,7 @@ SQL exception popups
 
 ---
 
-📈 Future Improvements
+## 📈 Future Improvements
 GUI table view (JTable)
 Book search system
 Admin roles
